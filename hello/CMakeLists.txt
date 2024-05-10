@@ -39,7 +39,7 @@ find_package(nanobind CONFIG REQUIRED)
 # We are now ready to compile the actual extension module
 nanobind_add_module(
   # Name of the extension
-  _hello_impl
+  hello_impl
 
   # Target the stable ABI for Python 3.12+, which reduces
   # the number of binary wheels that must be built. This
@@ -51,4 +51,4 @@ nanobind_add_module(
 )
 
 # Install directive for scikit-build-core
-install(TARGETS _hello_impl LIBRARY DESTINATION hello_ext)
+install(TARGETS hello_impl LIBRARY DESTINATION hello_ext)
