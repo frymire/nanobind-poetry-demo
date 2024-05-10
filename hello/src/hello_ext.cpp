@@ -1,5 +1,6 @@
 #include <nanobind/nanobind.h>
 
-NB_MODULE(_hello_impl, m) {
-    m.def("hello", []() { return "Whassup, sucka?"; });
+NB_MODULE(hello_impl, m) {
+    m.def("say_hi_cpp", []() { return "Whassup, sucka?"; });
+    m.def("say_bye_cpp", []() { return "So nice to see you (go)."; });
 }

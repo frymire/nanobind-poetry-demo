@@ -20,9 +20,27 @@ python nanobind_poetry_demo/say_hi.py
 python -m pytest tests
 `
 
+## Run Interactively
+In a python console, run python code that invokes the nanobind C++ extension like this...
+
+```
+>>> from nanobind_poetry_demo.say_hi import say_hi
+>>> say_hi()
+numpy (poetry dependency) says pi = 3.141592653589793
+hello_ext (c++ via nanobind) says hi... Whassup, sucka?
+```
+
+Or, just run code from the C++ extension directly...
+```
+>>> import hello
+>>> print(hello.hello())
+Whassup, sucka?
+```
+
+
 ## Troubleshoot
 
-If the build instructions didn't work, open a terminal (from within your IDE, if applicable) and check that the command line prompt is prefixed by the local virtual environment name...
+If the build instructions didn't work immediately, open a terminal (from within your IDE, if applicable) and check that the command line prompt is prefixed by the local virtual environment name...
 ```
 (.venv) frymire@xps17:~/code/nanobind-poetry-demo$
 ```
