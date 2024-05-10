@@ -32,7 +32,8 @@ Whassup, sucka?
 ```
 
 ## Rebuild
-Any time you make changes to the C++ code, run this command to rebuild and reinstall the wheel...
+Any time you make changes to the C++ code, run this command to rebuild and reinstall the wheels...  
+
 `
 python -m pip install .
 `
