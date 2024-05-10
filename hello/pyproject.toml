@@ -6,7 +6,7 @@ build-backend = "scikit_build_core.build"
 name = "nanobind-wheel-demo"
 version = "0.0.1"
 description = "Build a wheel that lets you call a C++ hello-world from python"
-readme = "README.md"
+readme = "../README.md"
 requires-python = ">=3.10"
 authors = [ { name = "Mark Frymire", email = "mark.frymire@icloud.com" }]
 
