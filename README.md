@@ -10,9 +10,14 @@ python -m pip install .
 
 If you make changes to the C++ code, re-run this command.
 
-## Run
+## Run a Demo
 `
-python nanobind_poetry_demo/invoke_it.py
+python nanobind_poetry_demo/say_hi.py
+`
+
+## Run Tests
+`
+python -m pytest tests
 `
 
 ## Troubleshoot
