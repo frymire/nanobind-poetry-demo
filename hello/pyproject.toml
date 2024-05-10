@@ -3,7 +3,7 @@ requires = ["scikit-build-core >=0.4.3", "nanobind >=1.3.2"]
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "nanobind-wheel-demo"
+name = "hello"
 version = "0.0.1"
 description = "Build a wheel that lets you call a C++ hello-world from python"
 readme = "../README.md"
